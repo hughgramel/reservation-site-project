@@ -9,6 +9,7 @@
     "install:all": "concurrently \"cd shared && npm install\" \"cd backend && npm install\" \"cd frontend && npm install\""
   },
   "devDependencies": {
-    "concurrently": "^9.1.0"
+    "concurrently": "^9.1.0",
+    "webpack": "^5.98.0"
   }
 }
