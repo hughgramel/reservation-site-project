@@ -4,7 +4,7 @@
 // const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001'
 
 // import { Todo } from '@shared/types';
-
+import Home from "./components/Home"
 function App() {
   // const [todos, setTodos] = useState<Todo[]>([])
   // const [newTodoText, setNewTodoText] = useState('')
@@ -33,8 +33,8 @@ function App() {
   // }
 
   return (
-    <div>
-      This is a div
+    <div className="App">
+      <Home/>
     </div>
     // <div className="container mx-auto p-4 max-w-md">
     //   <h1 className="text-2xl font-bold mb-4">Todo List</h1>
