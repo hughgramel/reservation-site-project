@@ -5,6 +5,10 @@
 
 // import { Todo } from '@shared/types';
 
+
+import {HeaderOne, HeaderTwo, HeaderThree} from './components/index'
+
+
 function App() {
   // const [todos, setTodos] = useState<Todo[]>([])
   // const [newTodoText, setNewTodoText] = useState('')
@@ -34,7 +38,9 @@ function App() {
 
   return (
     <div className="App">
-      <Home/>
+      <HeaderOne />
+      <HeaderTwo />
+      <HeaderThree />
     </div>
     // <div className="container mx-auto p-4 max-w-md">
     //   <h1 className="text-2xl font-bold mb-4">Todo List</h1>
