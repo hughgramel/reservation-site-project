@@ -1,0 +1,204 @@
+.about-page {
+  padding: 120px 20px 60px;
+  background-color: white;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.about-header h1 {
+  font-size: 3rem;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+  font-family: 'Playfair Display', serif;
+}
+
+.about-header p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.about-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.story-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  margin-bottom: 6rem;
+  align-items: center;
+}
+
+.story-image {
+  height: 400px;
+  background-image: url('/images/restaurant-story.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+
+.story-text h2 {
+  font-size: 2rem;
+  color: #1a1a1a;
+  margin-bottom: 1.5rem;
+  font-family: 'Playfair Display', serif;
+}
+
+.story-text p {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.8;
+}
+
+.values-section {
+  text-align: center;
+  margin-bottom: 6rem;
+}
+
+.values-section h2 {
+  font-size: 2.5rem;
+  color: #1a1a1a;
+  margin-bottom: 3rem;
+  font-family: 'Playfair Display', serif;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.value-item {
+  padding: 2rem;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+}
+
+.value-item h3 {
+  font-size: 1.5rem;
+  color: #d4a373;
+  margin-bottom: 1rem;
+  font-family: 'Playfair Display', serif;
+}
+
+.value-item p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.team-section {
+  margin-bottom: 6rem;
+  text-align: center;
+}
+
+.team-section h2 {
+  font-size: 2.5rem;
+  color: #1a1a1a;
+  margin-bottom: 3rem;
+  font-family: 'Playfair Display', serif;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 3rem;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.member-image {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.member-image.chef {
+  background-image: url('/images/chef.jpg');
+}
+
+.member-image.sommelier {
+  background-image: url('/images/sommelier.jpg');
+}
+
+.member-image.pastry {
+  background-image: url('/images/pastry-chef.jpg');
+}
+
+.team-member h3 {
+  font-size: 1.5rem;
+  color: #1a1a1a;
+  margin-bottom: 0.5rem;
+  font-family: 'Playfair Display', serif;
+}
+
+.team-member p {
+  color: #666;
+}
+
+.awards-section {
+  text-align: center;
+}
+
+.awards-section h2 {
+  font-size: 2.5rem;
+  color: #1a1a1a;
+  margin-bottom: 3rem;
+  font-family: 'Playfair Display', serif;
+}
+
+.awards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.award {
+  padding: 2rem;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+}
+
+.award h3 {
+  font-size: 1.5rem;
+  color: #d4a373;
+  margin-bottom: 1rem;
+  font-family: 'Playfair Display', serif;
+}
+
+.award p {
+  color: #666;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .about-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .story-section {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .story-image {
+    height: 300px;
+  }
+
+  .values-section h2,
+  .team-section h2,
+  .awards-section h2 {
+    font-size: 2rem;
+  }
+
+  .member-image {
+    height: 250px;
+  }
+} 

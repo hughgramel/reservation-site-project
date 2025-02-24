@@ -1,0 +1,112 @@
+.menu-page {
+  padding: 120px 20px 60px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.menu-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.menu-header h1 {
+  font-size: 3rem;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+  font-family: 'Playfair Display', serif;
+}
+
+.menu-header p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.menu-section {
+  margin-bottom: 4rem;
+}
+
+.menu-section h2 {
+  font-size: 2rem;
+  color: #d4a373;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  position: relative;
+}
+
+.menu-section h2::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 2px;
+  background-color: #d4a373;
+  margin: 1rem auto 0;
+}
+
+.menu-items {
+  display: grid;
+  gap: 2rem;
+}
+
+.menu-item {
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+  transform: translateY(-5px);
+}
+
+.menu-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px dashed #ddd;
+  padding-bottom: 0.5rem;
+}
+
+.menu-item-header h3 {
+  font-size: 1.4rem;
+  color: #1a1a1a;
+  font-family: 'Playfair Display', serif;
+}
+
+.price {
+  font-size: 1.2rem;
+  color: #d4a373;
+  font-weight: 600;
+}
+
+.menu-item p {
+  color: #666;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+@media (min-width: 768px) {
+  .menu-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .menu-page {
+    padding: 100px 20px 40px;
+  }
+
+  .menu-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .menu-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .menu-item-header h3 {
+    font-size: 1.2rem;
+  }
+} 
