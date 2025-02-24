@@ -6,6 +6,7 @@ import MenuPage from './components/pages/MenuPage';
 import ReservationsPage from './components/pages/ReservationsPage';
 import AboutPage from './components/pages/AboutPage';
 import './styles/App.css';
+import './styles/index.css';
 
 
 const App: React.FC = () => {

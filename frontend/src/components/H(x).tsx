@@ -1,9 +1,9 @@
 interface HeaderProps {
     type: keyof JSX.IntrinsicElements;
-    value: string;
+    text: string;
 }
   
-  export default function Header({ type, value }: HeaderProps) {
+  export default function Header({ type, text }: HeaderProps) {
     const Tag = type;
-    return <Tag className={type}>{value}</Tag>;
+    return <Tag className={type}>{text}</Tag>;
   }
