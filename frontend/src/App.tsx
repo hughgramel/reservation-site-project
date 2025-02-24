@@ -1,11 +1,11 @@
 import React from 'react';
-import Header from './components/Header';
-import Footer from './components/Footer';
+import Header from './components/pages/Header';
+import Footer from './components/pages/Footer';
 import HomePage from './components/pages/HomePage';
 import MenuPage from './components/pages/MenuPage';
 import ReservationsPage from './components/pages/ReservationsPage';
 import AboutPage from './components/pages/AboutPage';
-import './styles/index.css';
+import './styles/App.css';
 
 
 const App: React.FC = () => {

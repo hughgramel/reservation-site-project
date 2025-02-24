@@ -1,4 +1,5 @@
 import React from 'react';
+// import Header from "H(x)"
 import '../../styles/AboutPage.css';
 
 const AboutPage: React.FC = () => {
@@ -6,6 +7,7 @@ const AboutPage: React.FC = () => {
     <div className="about-page" id="about">
       <div className="about-header">
         <h1>Our Story</h1>
+        {/* <Header type="h1" text="h1 Our Story"/> */}
         <p>A tradition of excellence since 1995</p>
       </div>
 
