@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './components/pages/Header';
-import Footer from './components/pages/Footer';
+import Footer from './components/pages/Footer'; 
 import HomePage from './components/pages/HomePage';
 import MenuPage from './components/pages/MenuPage';
 import ReservationsPage from './components/pages/ReservationsPage';
