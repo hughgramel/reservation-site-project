@@ -36,3 +36,17 @@ app.put('/api/todos/:id', (req, res) => {
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
 });
+
+//POST: reservation
+
+//POST: Cancel
+
+//UPDATE: update reservation
+
+//GET: all reservations
+
+//POST: sign up
+
+//GET: login
+
+//GET: one reservation
